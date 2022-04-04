@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h2>Conversor de moedas</h2>
+    <form>
+        <label for="real">Real: </label>
+        <input type="number" name="real" id="real">
+        <br/>
+        <label for="dolar">Dólar: </label>
+        <input type="number" name="dolar" id="dolar">
+        <br/>
+        <label for="euro">Euro: </label>
+        <input type="number" name="euro" id="euro">
+        <br/><br/>
+        <input type="button" value="Converter" 
+            onclick="converter()" class="botao">
+        <input type="reset" value="Limpar" class="botao">
+    </form>
+    <script src="conversor.js"></script>
+</body>
+</html>
